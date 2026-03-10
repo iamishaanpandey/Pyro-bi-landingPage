@@ -145,7 +145,7 @@ function Hero() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="heading-xl text-5xl md:text-7xl lg:text-8xl mb-6"
+          className="heading-xl text-5xl md:text-6xl lg:text-7xl mb-4"
         >
           Ask Questions.
           <br />
@@ -157,7 +157,7 @@ function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.25 }}
-          className="text-lg md:text-xl text-[#2A2A2A] max-w-2xl mx-auto mb-10 leading-relaxed"
+          className="text-base md:text-lg text-[#2A2A2A] max-w-2xl mx-auto mb-8 leading-relaxed"
           style={{ fontFamily: "'Inter', sans-serif" }}
         >
           PyroBI is a next-generation Conversational BI platform. Drop a CSV,
@@ -170,7 +170,7 @@ function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="flex flex-wrap items-center justify-center gap-4 mb-16"
+          className="flex flex-wrap items-center justify-center gap-4 mb-10"
         >
           <a
             href="https://pyro-bi.vercel.app/"
